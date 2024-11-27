@@ -17,6 +17,7 @@
     font-family: "OpenComics";
     letter-spacing: 2px;
     color:#ffffff;
+    font-size: x-large;
 }
 
 h1{
@@ -53,6 +54,7 @@ main {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    padding: 12pt;
     background-image: url('/Image/Backgrounds/Wall.webp');
 }
 
@@ -60,7 +62,7 @@ footer{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    align-content: center;
+    justify-content:center;
     padding: 15pt;
     background-image: url('/Image/Backgrounds/Books.webp');
 }
@@ -88,4 +90,26 @@ button:focus{
     border-radius: 0%;
     border-width: 1%;
     border-style: solid;
+}
+#outter-frame{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: content;
+    justify-content: center;
+}
+
+#inner-frame{
+    width: 100% ;
+    max-width: 100%;
+        img{
+            padding: auto;
+            width:100%;
+            height: fit-content;
+        }
+        p{
+            padding: auto;
+        }
+    display: flex;
+    flex-direction: row;
 }
