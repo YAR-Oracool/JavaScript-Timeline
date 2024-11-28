@@ -13,11 +13,11 @@ h1{
     font-size: 5vh;
     color: white;
 }
-#main-title{
+#mainTitle{
     display: block;
     width: 100%;
     background-color: grey;
-    margin: 12pt;
+    margin: 0;
     h2{
         text-align: center;
         margin: 0;
@@ -50,10 +50,15 @@ header{
 }
 
 main {
+    border: gray;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 3pt;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 12pt;
+    padding: 0pt;
+    padding-bottom: 0pt;
     height: fit-content;
     align-items: center;
     justify-content: center;
@@ -67,65 +72,106 @@ footer{
     justify-content:center;
     align-items: center;
     padding:12pt;
-    background-image: url('/Image/Backgrounds/Books.webp');
+    background-color: grey;
 }
 
 button{
+    width: fit-content;
     font-size: 3vh;
     height: 8vh;
-    padding-right: 2vh;
-    padding-left: 2vh;
+    padding-right: 6pt;
+    padding-left: 6pt;
     border-radius: 0px;
     border: none;
-    background-image: url('/Image/Backgrounds/Rice.webp');
-
+    background-color: black;
 }
 
 button:hover
 {
-    background-image: url('/Image/Backgrounds/Wall.webp');
+    border: black;
+    border-radius: 0%;
+    border-width: 3pt;
+    border-style: solid;
+    padding-right: 3pt;
+    padding-left: 3pt;
+    color: black;
+    background-color: gray;
 }
 
 button:active{
-    background-image: url('/Image/Backgrounds/Cloth.webp');
+    border: white;
+    border-radius: 0%;
+    border-width: 3pt;
+    border-style: solid;
+    padding-right: 3pt;
+    padding-left: 3pt;
+    color: black;
+    background-color: white;
 }
 
 button:focus{
-    border: #ffffff;
+    border: white;
     border-radius: 0%;
-    border-width: 1vh;
+    border-width: 3pt;
     border-style: solid;
-    padding-right: 1vh;
-    padding-left: 1vh;
+    padding-right: 3pt;
+    padding-left: 3pt;
 }
 
 #outter-frame{
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
-}
 
-#inner-frame{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items:center;
-    img{
-            width: 100%;
-            flex-basis: 24%;
+    aside{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0;
+        border-style: solid;
+        border-radius: 0;
+        border: gray;
+        border-width: 3pt;
+        flex-basis: content;
+        background-color: gray;
+        .inactive{
+            background-color: gray;
+            color: black;
+        }
+        .active{
+            background-color: black;
+            color: white;
+        }
     }
-    p{
+
+    #inner-frame{
+        margin: 12pt;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items:center;
+        img{    
+                border: gray;
+                border-radius: 0;
+                border-style: solid;
+                border-width: 3pt;
+                width: 100%;
+                flex-basis: 24%;
+        }
+        p{
         text-align: justify;
         flex-basis: 24%;
+        }
     }
 }
 
 @media only screen and (max-width: 1920px){
-
+#outter-frame{
     #inner-frame{
         img{
             order:2;
@@ -137,9 +183,10 @@ button:focus{
         }
     }
 }
+}
 
 @media only screen and (max-width: 1280px){
-
+#outter-frame{
     #inner-frame{
         img{
             order: 2;
@@ -151,9 +198,10 @@ button:focus{
         }
     }
 }
+}
 
 @media only screen and (max-width: 900px){
-
+#outter-frame{
     #inner-frame{
         img{
             order: 1;
@@ -164,4 +212,5 @@ button:focus{
             flex-basis: 100%;
         }
     }
+}
 }
