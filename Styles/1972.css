@@ -1,33 +1,24 @@
-  @font-face {
-    font-family: 'OpenComics';
-    src: url('/Fonts/OpenComics.otf');
-    font-weight: normal;
-    font-style: normal;
-    
-  }
-  
-@font-face {
-    font-family: 'OpenSerifComics';
-    src: url('/Fonts/OpenSerifComics.otf');
-    font-weight: normal;
-    font-style: normal;
-  }
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 *{
-    font-family: "OpenComics";
+    font-family: "VT323", 'Bitstream Terminal', monospace;
     letter-spacing: 2px;
     color:#ffffff;
     font-size: x-large;
 }
 
 h1{
-    font-family: OpenSerifComics, sans-serif;
-    font-size: 5vh;
+    letter-spacing: 0px;
     text-align: center;
+    font-size: 5vh;
+    color: white;
 }
+
 h2{
-    font-family: OpenSerifComics, sans-serif;
+    letter-spacing: 0px;
     font-size: 4vh;
+    color: white;
+    background-color: grey;
 }
 
 body{
@@ -40,14 +31,15 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     column-gap: 12pt;
     padding: 12pt;
     img {
         width: auto;
         max-width: 8vh;
+        height: fit-content;
     }
-    background-image: url('/Image/Backgrounds/Cloth.webp');
+    background-color: black;
 }
 
 main {
@@ -58,7 +50,7 @@ main {
     height: fit-content;
     align-items: center;
     justify-content: center;
-    background-image: url('/Image/Backgrounds/Wall.webp');
+    background-color: black;
 }
 
 footer{
