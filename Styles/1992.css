@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Beau+Rivage&family=Caesar+Dressing&family=Calligraffitti&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *{
-    font-family: "VT323", 'Bitstream Terminal', monospace;
+    font-family: "Azeret Mono", monospace;
     letter-spacing: 2px;
-    color:#ffffff;
+    color:white;
     font-size: x-large;
 }
 
@@ -11,25 +11,25 @@ h1{
     letter-spacing: 0px;
     text-align: center;
     font-size: 5vh;
-    color: white;
+    color: darkred;
 }
 #mainTitle{
     display: block;
     width: 100%;
-    background-color: grey;
+    background-color: darkcyan;
     margin: 0;
     h2{
         text-align: center;
         margin: 0;
         letter-spacing: 0px;
         font-size: 4vh;
-        color: black;
+        color: yellow;
     }
 }
 
 
 body{
-    background-color: black;
+    background-color: gray;
     align-content: center;
 }
 
@@ -46,11 +46,11 @@ header{
         max-width: 8vh;
         height: fit-content;
     }
-    background-color: black;
+    background-color: gray;
 }
 
 main {
-    border: gray;
+    border: darkcyan;
     border-radius: 0;
     border-style: solid;
     border-width: 3pt;
@@ -62,7 +62,7 @@ main {
     height: fit-content;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: gray;
 }
 
 footer{
@@ -72,7 +72,7 @@ footer{
     justify-content:center;
     align-items: center;
     padding:12pt;
-    background-color: grey;
+    background-color: darkcyan;
 }
 
 button{
@@ -83,34 +83,34 @@ button{
     padding-left: 6pt;
     border-radius: 0px;
     border: none;
-    background-color: black;
+    background-color: gray;
 }
 
 button:hover
 {
-    border: black;
+    border: gray;
     border-radius: 0%;
     border-width: 3pt;
     border-style: solid;
     padding-right: 3pt;
     padding-left: 3pt;
-    color: black;
-    background-color: gray;
+    color: white;
+    background-color: darkcyan;
 }
 
 button:active{
-    border: white;
+    border: darkred;
     border-radius: 0%;
     border-width: 3pt;
     border-style: solid;
     padding-right: 3pt;
     padding-left: 3pt;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: darkred;
 }
 
 button:focus{
-    border: white;
+    border: yellow;
     border-radius: 0%;
     border-width: 3pt;
     border-style: solid;
@@ -133,16 +133,16 @@ button:focus{
         margin: 0;
         border-style: solid;
         border-radius: 0;
-        border: gray;
+        border: darkcyan;
         border-width: 3pt;
         flex-basis: content;
-        background-color: gray;
+        background-color: darkcyan;
         .inactive{
-            background-color: gray;
-            color: black;
+            background-color: darkcyan;
+            color: white;
         }
         .active{
-            background-color: black;
+            background-color: darkred;
             color: white;
         }
     }
@@ -156,7 +156,7 @@ button:focus{
         justify-content: space-around;
         align-items:center;
         img{    
-                border: gray;
+                border: darkcyan;
                 border-radius: 0;
                 border-style: solid;
                 border-width: 3pt;

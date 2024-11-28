@@ -3,7 +3,7 @@
 *{
     font-family: "VT323", 'Bitstream Terminal', monospace;
     letter-spacing: 2px;
-    color:#ffffff;
+    color:green;
     font-size: x-large;
 }
 
@@ -11,12 +11,12 @@ h1{
     letter-spacing: 0px;
     text-align: center;
     font-size: 5vh;
-    color: white;
+    color: green;
 }
 #mainTitle{
     display: block;
     width: 100%;
-    background-color: grey;
+    background-color: darkgreen;
     margin: 0;
     h2{
         text-align: center;
@@ -50,7 +50,7 @@ header{
 }
 
 main {
-    border: gray;
+    border: darkgreen;
     border-radius: 0;
     border-style: solid;
     border-width: 3pt;
@@ -72,7 +72,7 @@ footer{
     justify-content:center;
     align-items: center;
     padding:12pt;
-    background-color: grey;
+    background-color: darkgreen;
 }
 
 button{
@@ -95,22 +95,22 @@ button:hover
     padding-right: 3pt;
     padding-left: 3pt;
     color: black;
-    background-color: gray;
+    background-color: darkgreen;
 }
 
 button:active{
-    border: white;
+    border: green;
     border-radius: 0%;
     border-width: 3pt;
     border-style: solid;
     padding-right: 3pt;
     padding-left: 3pt;
     color: black;
-    background-color: white;
+    background-color: green;
 }
 
 button:focus{
-    border: white;
+    border: green;
     border-radius: 0%;
     border-width: 3pt;
     border-style: solid;
@@ -133,17 +133,17 @@ button:focus{
         margin: 0;
         border-style: solid;
         border-radius: 0;
-        border: gray;
+        border: darkgreen;
         border-width: 3pt;
         flex-basis: content;
-        background-color: gray;
+        background-color: darkgreen;
         .inactive{
-            background-color: gray;
+            background-color: darkgreen;
             color: black;
         }
         .active{
             background-color: black;
-            color: white;
+            color: green;
         }
     }
 
@@ -156,7 +156,7 @@ button:focus{
         justify-content: space-around;
         align-items:center;
         img{    
-                border: gray;
+                border: darkgreen;
                 border-radius: 0;
                 border-style: solid;
                 border-width: 3pt;

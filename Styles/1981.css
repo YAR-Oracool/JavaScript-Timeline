@@ -1,29 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Caesar+Dressing&family=Calligraffitti&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *{
-    font-family: "VT323", 'Bitstream Terminal', monospace;
+    font-family: "Beau Rivage", cursive;
     letter-spacing: 2px;
-    color:#ffffff;
+    color:white;
     font-size: x-large;
 }
 
 h1{
-    letter-spacing: 0px;
     text-align: center;
     font-size: 5vh;
-    color: white;
+    color: black;
 }
 #mainTitle{
     display: block;
     width: 100%;
-    background-color: grey;
+    background-color: blue;
     margin: 0;
     h2{
         text-align: center;
         margin: 0;
         letter-spacing: 0px;
         font-size: 4vh;
-        color: black;
+        color: yellow;
     }
 }
 
@@ -46,11 +45,11 @@ header{
         max-width: 8vh;
         height: fit-content;
     }
-    background-color: black;
+    background-color: grey;
 }
 
 main {
-    border: gray;
+    border: blue;
     border-radius: 0;
     border-style: solid;
     border-width: 3pt;
@@ -72,10 +71,11 @@ footer{
     justify-content:center;
     align-items: center;
     padding:12pt;
-    background-color: grey;
+    background-color: blue;
 }
 
 button{
+    color: black;
     width: fit-content;
     font-size: 3vh;
     height: 8vh;
@@ -83,34 +83,34 @@ button{
     padding-left: 6pt;
     border-radius: 0px;
     border: none;
-    background-color: black;
+    background-color: red;
 }
 
 button:hover
 {
-    border: black;
+    border: yellow;
     border-radius: 0%;
     border-width: 3pt;
     border-style: solid;
     padding-right: 3pt;
     padding-left: 3pt;
     color: black;
-    background-color: gray;
+    background-color: blue;
 }
 
 button:active{
-    border: white;
+    border: yellow;
     border-radius: 0%;
     border-width: 3pt;
     border-style: solid;
     padding-right: 3pt;
     padding-left: 3pt;
-    color: black;
-    background-color: white;
+    color: yellow;
+    background-color: blue;
 }
 
 button:focus{
-    border: white;
+    border: magenta;
     border-radius: 0%;
     border-width: 3pt;
     border-style: solid;
@@ -133,13 +133,13 @@ button:focus{
         margin: 0;
         border-style: solid;
         border-radius: 0;
-        border: gray;
+        border: blue;
         border-width: 3pt;
         flex-basis: content;
-        background-color: gray;
+        background-color: blue;
         .inactive{
-            background-color: gray;
-            color: black;
+            background-color: blue;
+            color: yellow;
         }
         .active{
             background-color: black;
@@ -156,7 +156,7 @@ button:focus{
         justify-content: space-around;
         align-items:center;
         img{    
-                border: gray;
+                border: blue;
                 border-radius: 0;
                 border-style: solid;
                 border-width: 3pt;
