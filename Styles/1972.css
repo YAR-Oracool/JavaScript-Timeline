@@ -13,13 +13,20 @@ h1{
     font-size: 5vh;
     color: white;
 }
-
-h2{
-    letter-spacing: 0px;
-    font-size: 4vh;
-    color: white;
+#main-title{
+    display: block;
+    width: 100%;
     background-color: grey;
+    margin: 12pt;
+    h2{
+        text-align: center;
+        margin: 0;
+        letter-spacing: 0px;
+        font-size: 4vh;
+        color: black;
+    }
 }
+
 
 body{
     background-color: black;

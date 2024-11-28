@@ -1,6 +1,6 @@
   @font-face {
     font-family: 'OpenComics';
-    src: url('/Fonts/OpenComics.otf');
+    src: url('../Fonts/OpenComics.otf');
     font-weight: normal;
     font-style: normal;
     
@@ -8,7 +8,7 @@
   
 @font-face {
     font-family: 'OpenSerifComics';
-    src: url('/Fonts/OpenSerifComics.otf');
+    src: url('../Fonts/OpenSerifComics.otf');
     font-weight: normal;
     font-style: normal;
   }
@@ -47,7 +47,7 @@ header{
         width: auto;
         max-width: 8vh;
     }
-    background-image: url('/Image/Backgrounds/Cloth.webp');
+    background-image: url('../Image/Backgrounds/Cloth.webp');
 }
 
 main {
@@ -58,7 +58,7 @@ main {
     height: fit-content;
     align-items: center;
     justify-content: center;
-    background-image: url('/Image/Backgrounds/Wall.webp');
+    background-image: url('../Image/Backgrounds/Wall.webp');
 }
 
 footer{
@@ -68,7 +68,7 @@ footer{
     justify-content:center;
     align-items: center;
     padding:12pt;
-    background-image: url('/Image/Backgrounds/Books.webp');
+    background-image: url('../Image/Backgrounds/Books.webp');
 }
 
 button{
@@ -78,17 +78,17 @@ button{
     padding-left: 2vh;
     border-radius: 0px;
     border: none;
-    background-image: url('/Image/Backgrounds/Rice.webp');
+    background-image: url('../Image/Backgrounds/Rice.webp');
 
 }
 
 button:hover
 {
-    background-image: url('/Image/Backgrounds/Wall.webp');
+    background-image: url('../Image/Backgrounds/Wall.webp');
 }
 
 button:active{
-    background-image: url('/Image/Backgrounds/Cloth.webp');
+    background-image: url('../Image/Backgrounds/Cloth.webp');
 }
 
 button:focus{
