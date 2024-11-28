@@ -202,7 +202,14 @@ button:focus{
 
 @media only screen and (max-width: 900px){
 #outter-frame{
+    flex-direction: column;
+    aside{
+        justify-content: center;
+        flex-direction: row;
+        order: 2;
+    }
     #inner-frame{
+        order:1;
         img{
             order: 1;
             flex-basis: 100%;
