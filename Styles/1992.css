@@ -128,7 +128,7 @@ button:focus{
     aside{
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: center;
         margin: 0;
         border-style: solid;
@@ -137,6 +137,8 @@ button:focus{
         border-width: 3pt;
         flex-basis: content;
         background-color: darkcyan;
+        overflow-x: scroll;
+        overflow: visible;
         .inactive{
             background-color: darkcyan;
             color: white;
