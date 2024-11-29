@@ -13,15 +13,15 @@ function pong(){
 
     document.getElementById("style").href="../Styles/1972.css";
 
-    document.getElementById("logo").src="https://assets-prd.ignimgs.com/2022/04/16/pong-1650079489009.jpg?width=300&crop=1%3A1%2Csmart&auto=webp";
-    document.getElementById("logo").alt="A yellow Pong logo.";
+    document.getElementById("logo").src="../Image/Pong Logo.svg";
+    document.getElementById("logo").alt="A Pong logo.";
 
     const pic = document.createElement("img");
     const para1 = document.createElement("p");
     const para2 = document.createElement("p");
     const para3 = document.createElement("p");
 
-    pic.src="https://www.arcade-history.com/images/game/2007_1.png";
+    pic.src="../Image/pong screenshot.svg";
     pic.alt="Gameplay image of pong. two lines passing a ball back and forth between eachother.";
 
     para1.textContent = "Love it or hate it. The first set of video games were pong and remained Pong for quite a while. Just 2 balls bouncing back and forth.";
@@ -43,7 +43,7 @@ function CGA(){
 
     document.getElementById("style").href="../Styles/1981.css";
 
-    document.getElementById("logo").src="https://www.dosdays.co.uk/topics/images/my_video_cards/cga_colours_correct.jpg";
+    document.getElementById("logo").src="../Image/CGA Logo.svg";
     document.getElementById("logo").alt="An old TV showing CGA colors.";
 
     const pic = document.createElement("img");
@@ -51,10 +51,10 @@ function CGA(){
     const para2 = document.createElement("p");
     const para3 = document.createElement("p");
 
-    pic.src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/03/cga-graphics-rick-dangerous-2-screenshot.jpg";
-    pic.alt="A show casing of a game running on CGA with limited colors";
-    para1.textContent = "Og god... CGA. During these times, if your computer could show colors, you had a high end PC.";
-    para2.textContent = "Graphics and graphics cards existed before this but they had extremely limited pallets. This marked the first time we had a goo chunk of colors to work with.";
+    pic.src="../Image/CGA_screenshot.jpg";
+    pic.alt="A pictyure that has the CGA colors";
+    para1.textContent = "Oh god... CGA. During these times, if your computer could show colors, you had a high end PC.";
+    para2.textContent = "Graphics and graphics cards existed before this but they had extremely limited pallets. This marked the first time we had a good chunk of colors to work with.";
     para3.textContent = 'From Commander Keen to your desktop. Who can possibly miss these eye ball melting colors?';
 
     document.getElementById("nameYear").textContent="CGA - 1981";
@@ -72,16 +72,16 @@ function activision(){
 
     document.getElementById("style").href="../Styles/1979.css";
 
-    document.getElementById("logo").src="https://fabrikbrands.com/wp-content/uploads/Activision-Logo-2-1200x750.png";
-    document.getElementById("logo").alt="Activision Logo";
+    document.getElementById("logo").src="../Image/Activision Logo.svg";
+    document.getElementById("logo").alt="A 5 step color transformation from Red to Blue threw Yellow";
 
     const pic = document.createElement("img");
     const para1 = document.createElement("p");
     const para2 = document.createElement("p");
     const para3 = document.createElement("p");
 
-    pic.src="https://www.remindmagazine.com/wp-content/uploads/2024/07/Activision-Decathlon-Atari-2600-game-cover-box-1014x633.jpg";
-    pic.alt="box art of a sports game by activision called Decathlon.";
+    pic.src="../Image/Activision Screenshot.svg";
+    pic.alt="A made up screen shot of a game taht would apear on a game from taht era.";
     para1.textContent = "Say what you want about Activsion but without them, teh world of video games would have been much smaller.";
     para2.textContent = "Their break away from Atari and them trying to break the rules, created third party games.";
     para3.textContent = 'Yes! Most of teh games you do was because some people wanted to be credited in games so they made their own studio and indirectly caused the first videogame market crash.';
@@ -101,16 +101,16 @@ function gen5(){
 
     document.getElementById("style").href="../Styles/1992.css";
 
-    document.getElementById("logo").src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/sonic_jam_1000px.jpg";
-    document.getElementById("logo").alt="characters of Sonic Jam.";
+    document.getElementById("logo").src="../Image/5th gen Logo.svg";
+    document.getElementById("logo").alt="a bunch of abstract shapes stacked on top of each other.";
 
     const pic = document.createElement("img");
     const para1 = document.createElement("p");
     const para2 = document.createElement("p");
     const para3 = document.createElement("p");
 
-    pic.src="https://cdn.mos.cms.futurecdn.net/EwoDSPaxsRtdgQ9siCFPtH-970-80.jpg.webp";
-    pic.alt="Gameplay picture fo a rail shooter called time crisis.";
+    pic.src="../Image/5th gen render.png";
+    pic.alt="A low poly simple sene";
     para1.textContent = "Have you ever thought about what hell looks like? This was it. Discs were coming in, cartridges were going out. Arcades were rapidly shutting down and 3D was becoming all the rage.";
     para2.textContent = "If you couldn't keep up, you were on your way out. Many studios closed down, many companies went out of business.";
     para3.textContent = 'By the end of this generation. There were corpses of many companies on the floor. But most importantly, companies started to put effort into their music instead fo it being just background noise.';
