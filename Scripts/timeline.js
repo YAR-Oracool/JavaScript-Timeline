@@ -25,7 +25,7 @@ function pong(){
     pic.alt="Gameplay image of pong. two lines passing a ball back and forth between eachother.";
 
     para1.textContent = "Love it or hate it. The first set of video games were pong and remained Pong for quite a while. Just 2 balls bouncing back and forth.";
-    para2.textContent = "While insignificant by today's standards, this is where it all began. Where games  came out fo computer labs and into arcades.";
+    para2.textContent = "While insignificant by today's standards, this is where it all began. Where games  came out of computer labs and into arcades.";
     para3.textContent = "This inspired tons of games with different names but basically identical gameplay. This was peak entertainment and fueled what came after it.";
 
     document.getElementById("nameYear").textContent="PONG - 1972";
@@ -81,10 +81,10 @@ function activision(){
     const para3 = document.createElement("p");
 
     pic.src="../Image/Activision Screenshot.svg";
-    pic.alt="A made up screen shot of a game taht would apear on a game from taht era.";
-    para1.textContent = "Say what you want about Activsion but without them, teh world of video games would have been much smaller.";
+    pic.alt="A made up screen shot of a game that would appear on a game from that era.";
+    para1.textContent = "Say what you want about Activsion but without them, the world of video games would have been much smaller.";
     para2.textContent = "Their break away from Atari and them trying to break the rules, created third party games.";
-    para3.textContent = 'Yes! Most of teh games you do was because some people wanted to be credited in games so they made their own studio and indirectly caused the first videogame market crash.';
+    para3.textContent = 'Yes! Most of the games you play was because some people wanted to be credited in games so they made their own studio and indirectly caused the first videogame market crash.';
 
     document.getElementById("nameYear").textContent="ACTIVISION - 1979";
     document.getElementById("1").classList.toggle('active');
@@ -113,7 +113,7 @@ function gen5(){
     pic.alt="A low poly simple sene";
     para1.textContent = "Have you ever thought about what hell looks like? This was it. Discs were coming in, cartridges were going out. Arcades were rapidly shutting down and 3D was becoming all the rage.";
     para2.textContent = "If you couldn't keep up, you were on your way out. Many studios closed down, many companies went out of business.";
-    para3.textContent = 'By the end of this generation. There were corpses of many companies on the floor. But most importantly, companies started to put effort into their music instead fo it being just background noise.';
+    para3.textContent = 'By the end of this generation. There were corpses of many companies on the floor. But most importantly, companies started to put effort into their music instead of it being just background noise.';
 
     document.getElementById("nameYear").textContent="5th console generation - 1992";
     document.getElementById("3").classList.toggle('active');
